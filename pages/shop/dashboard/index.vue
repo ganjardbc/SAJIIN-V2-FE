@@ -73,7 +73,8 @@
                   size="md" 
                   class="w-full" 
                   icon="mdi-light:magnify"
-                  placeholder="Search orders..." />
+                  placeholder="Search orders..."
+                  :ui="{ rounded: 'rounded-full' }" />
                 <gh-layout v-for="i in 10" :key="i" align="center" class="!gap-3">
                   <gh-layout justify="center" align="center" class="!bg-vermillion-100 rounded-lg p-2 !w-10 !h-10">
                     <gh-text color="vermillion-500" size="md" weight="semibold">
@@ -114,7 +115,8 @@
                   size="md" 
                   class="w-full" 
                   icon="mdi-light:magnify"
-                  placeholder="Search payment..." />
+                  placeholder="Search payment..."
+                  :ui="{ rounded: 'rounded-full' }" />
                 <gh-layout v-for="i in 10" :key="i" align="center" class="!gap-3">
                   <gh-layout justify="center" align="center" class="!bg-vermillion-100 rounded-lg p-2 !w-10 !h-10">
                     <gh-text color="vermillion-500" size="md" weight="semibold">
